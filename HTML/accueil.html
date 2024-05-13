@@ -3,11 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Accueil - Pétition chaise</title>
+    <link rel="stylesheet" href="../ressources/CSS/css-accueil.css">
+    <link rel="stylesheet" href="../ressources/CSS/style.css">
+
 </head>
 
-<body>
+<body class="background-accueil">
+
 <header>
 <div class="header-accueil"> <h1> Site de pétition pour le remplacement de chaise</h1></div>
+    <a class="lien" href="accueil.html">accueil</a>
+    <a class="lien" href="contact.html">contact</a>
 </header>
 <div class="titre"> <h2>Bienvenue sur la page d'accueil</h2></div>
 <div class="texte-accueil"> <h3> Notre pétition </h3> <p> À qui de droit, </p>
@@ -18,14 +24,14 @@
     <p> Il est de notre droit de bénéficier d'un environnement propice à notre réussite scolaire et à notre santé. </p>
 
     <p>Par conséquent, nous demandons à la direction du Cégep de prendre des mesures immédiates pour remédier à ces problèmes. Nous suggérons notamment :</p>
-    <ul>
+    <ul class="liste-accueil">
         <ol> Le remplacement des chaises endommagées par des chaises ergonomiques adaptées;</ol>
             <ol> L'aménagement des locaux selon les principes d'ergonomie afin de favoriser un environnement de travail confortable;</ol>
                 <ol> Le respect de la procédure de remplacement du matériel brisé, dès qu’un bris survient.</ol>
     </ul>
     <p>  En signant, nous demandons que nos préoccupations soient prises au sérieux et que des actions concrètes soient entreprises dans les plus brefs délais. </p></div>
-<div class="section-texte-image"> <h3> Les élèves du département d'informatique sont tristes et dépressifs.</h3> <img src="../ressources/images/icone/sad-student-chair.jfif" alt="icone-élève-triste">  </div>
-<div class="texte-accueil">
+<div class="section-texte-image"> <h3> Les élèves du département d'informatique sont tristes et dépressifs.</h3> <img src="../ressources/images/icone/sad-student-chair.jfif" alt="icone-élève-triste" class="img-sad">  </div>
+<div class="texte-arguments">
     <h3> Nos arguments pour de nouvelles chaises: </h3>
     <ul>
     <ol> Les chaises sont brisées.</ol>
@@ -37,16 +43,18 @@
 </ul>
 </div>
 
-<footer>
-    <div class="footer-div">
+<footer >
+
+    <div class="footer-div-gauche">
         <p class="footer-p">Janelle Bedard, Sara-Maud Lupien, William Nolan</p>
         <p class="footer-p">Cegep Limoilou</p>
         <p class="footer-p">VALIDATION ET MAINTENANCE DES APPLICATIONS</p>
     </div>
 
-    <div>
+    <div class="footer-div-droite">
         <p>Pétition Chaises 2024</p>
     </div>
+
 </footer>
 
 </body>

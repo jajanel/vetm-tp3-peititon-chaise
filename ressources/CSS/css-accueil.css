@@ -1,0 +1,112 @@
+.background-accueil{
+    background: url("../images/background/background-accueil.jpg") ;
+    background-size: cover;
+}
+
+
+.header-accueil {
+    background-color: rgba(152, 45, 164, 0.8);
+    height: 200px;
+    width: 70%;
+    align-items: center;
+    margin: auto;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    position: fixed;
+    right: 0;
+
+}
+
+
+.header-accueil h1 {
+    font-size: 34px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    font-family: Consolas, sans-serif;
+    padding: 30px;
+    text-decoration-color: #642910;
+    color: #031b56;
+}
+
+.titre {
+    font-size: 45px;
+    font-family: "Comic Sans MS", sans-serif;
+    text-align: center;
+    margin: auto;
+    width: 70%
+
+}
+.texte-accueil h3{
+    font-size: 40px;
+    width: 80%;
+    margin: auto;
+    font-family: "Kristen ITC", sans-serif;
+    color: aliceblue;
+    text-align: center;
+    background-color: #e38514;
+    margin-bottom: 20px;
+    text-space: 20px;
+    border-radius: 84% 16% 70% 30% / 30% 55% 45% 70%;
+
+
+}
+
+.texte-accueil p{
+    text-align: center;
+    font-size: 24px;
+    width: 80%;
+    margin: auto;
+    font-family: "Kristen ITC", sans-serif;
+    color: aliceblue;
+    border-radius: 84% 16% 70% 30% / 30% 55% 45% 70%;
+
+}
+
+.liste-accueil{
+    color: #321054;
+    font-size: 78px;
+    text-align: right;
+    font-family: "Copperplate Gothic Light", sans-serif;
+    background-color: #485e9b;
+    border-radius: 84% 16% 70% 30% / 30% 55% 45% 70%;
+
+
+}
+
+.section-texte-image{
+    background-color: cornflowerblue;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+}
+
+.section-texte-image h3{
+    font-family: "Copperplate Gothic Light", sans-serif;
+    font-size: x-large;
+    background-color: #623e10;
+    color: #d28dfa;
+    height: 80px;
+    border-radius: 84% 16% 70% 30% / 30% 55% 45% 70%;
+
+}
+
+.img-sad{
+    border-radius: 84% 16% 70% 30% / 30% 55% 45% 70%;
+
+}
+
+.texte-arguments {
+    width: 40%;
+    margin: auto;
+    color: white;
+    background-color: darkgray;
+    font-size: 90px;
+    border-radius: 84% 16% 70% 30% / 30% 55% 45% 70%;
+
+}
+
+.footer-complet{
+    background-color: #b8c0c7;
+}

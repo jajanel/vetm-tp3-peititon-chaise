@@ -3,6 +3,8 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
+    background-color: #b8c0c7;
+
 }
 .footer-div-gauche{
     position: fixed;
